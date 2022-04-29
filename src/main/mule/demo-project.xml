@@ -12,6 +12,5 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener doc:name="Listener" doc:id="1d534f6b-432a-40ac-93fc-837183650039" config-ref="HTTP_Listener_config" path="/demo"/>
 		<set-payload value="Hello Tigray" doc:name="Set Payload" doc:id="e13f9075-1ae0-4d0c-aba0-8396ffd6a9d1" />
 		<logger level="INFO" doc:name="Logger" doc:id="1306040e-7e29-46f8-8df9-2b5793751922" message="#[payload]"/>
-		<logger level="INFO" doc:name="Logger" doc:id="002ec3e1-9769-47ca-b207-7e4c5699df1b" message="message sucessfuly send"/>
 	</flow>
 </mule>
